@@ -1,0 +1,45 @@
+{%extends "layout.html"%}
+{% set bodyId = "page-search-results" %}
+{% block styles %}
+    
+    <link rel="stylesheet" href="styles/search-results.css">
+{% endblock styles %}
+{% block title %}
+    <title>Resultado da busca</title>
+{% endblock title %}
+{% block content %}
+    {% include "partials/page-header.html" %}
+    <main>
+        <h4>
+            <strong>2 pontos</strong>
+            encontrados
+        </h4>
+        <div class="cards">
+            <div class="card">
+                <img src="assets/icone-card.jpg" alt="Colectoria">
+                <h1>Colectoria</h1>
+                <h3>Resíduos Eletrônicos, Lâmpadas</h3>
+                <p>
+                    Rio do sul, Santa Catarina
+                    <br/>
+                    Guilherme Gamballa, Jardim América
+                    <br/>
+                    Numero 260
+                </p>
+            </div>
+            <div class="card">
+                <img src="assets/icone-card.jpg" alt="Colectoria">
+                <h1>Colectoria</h1>
+                <h3>Resíduos Eletrônicos, Lâmpadas</h3>
+                <p>
+                    Rio do sul, Santa Catarina
+                    <br/>
+                    Guilherme Gamballa, Jardim América
+                    <br/>
+                    Numero 260
+                </p>
+            </div>
+        </div>
+    </main>
+
+{% endblock content %}
